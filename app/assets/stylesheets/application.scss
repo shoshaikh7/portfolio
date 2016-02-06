@@ -29,6 +29,11 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
+a:hover {
+  text-decoration: none;
+  color: $primary-color-dark;
+}
+
 /********************* Nav Bar *********************/
 nav {
   position: fixed;
@@ -233,7 +238,11 @@ section .project-image img{
   font-size: 3em;
 }
 
-.project-title:hover {
+.project-title a{
+  color: $primary-text-color;
+}
+
+.project-title a:hover {
   color: $primary-color-dark;
 }
 
@@ -241,6 +250,7 @@ section .project-image img{
   font-size: 1.2em;
   color: $secondary-text-color;
 }
+
 
 /********************* Contact *********************/
 footer {
